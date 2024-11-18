@@ -3,9 +3,11 @@
 
 .infos-bar {
     padding: 16px 24px;
-    background-color: variables.$textColor;
+    background-color: variables.$orange;
     display: flex;
     justify-content: space-between;
+    border-radius: 80px;
+    color: variables.$blue2;
 
     &__infos {
         display: flex;
@@ -25,6 +27,7 @@
 
     @media (max-width: 640px) {
         display: block;
+        border-radius: 30px;
 
         &__infos {
             display: block;

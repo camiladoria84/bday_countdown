@@ -7,16 +7,20 @@
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    border-radius: 80px;
 
 
     &--primary {
-        color: variables.$textColor;
-        background-color: variables.$purple;
+        color: variables.$orange;
+        background-color: variables.$pink;
     }
 
     @media (max-width: 640px) {
         display: block;
         width: 100%;
+        text-align: right;
+        
+        
     }
 
     @media (max-width: 1024px) {
